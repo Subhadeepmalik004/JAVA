@@ -2,20 +2,20 @@ package Conditionals.java;
 
 import java.util.Scanner;
 
-public class OperatorAND {
+public class OperatorOR {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number : ");
         int n = sc.nextInt();
 
-        if(99<n && n<1000) System.out.println("3 Digit Number");
-        else System.out.println("Not a 3 Digit Number");
+        if(n%5 == 0 || n%3 == 0) System.out.println("Divisible by 5 or 3");
+        else System.out.println("Not Divisible by 5 or 3");
     }
 }
 
 
-// c1 && c2  -->> Ans.
+// c1 || c2  -->> Ans.
 // T     T   -->> T
-// T     F   -->> F
-// F     T   -->> F
+// T     F   -->> T
+// F     T   -->> T
 // F     F   -->> F
