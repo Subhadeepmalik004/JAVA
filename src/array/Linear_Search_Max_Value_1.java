@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class Linear_Search_Max_Value_1 {
     public static void main(String[] args) {

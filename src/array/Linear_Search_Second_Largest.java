@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class Linear_Search_Second_Largest {
     public static void main(String[] args) {

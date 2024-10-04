@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class PassingArrayToMethods {
     // Pass by Value     -->> int, flot, double etc.

@@ -1,6 +1,4 @@
-package Array;
-
-import java.util.Scanner;
+package array;
 
 public class initialiseArray {
     public static void main(String[] args) {
