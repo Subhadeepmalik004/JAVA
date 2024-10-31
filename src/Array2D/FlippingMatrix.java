@@ -1,8 +1,25 @@
 package Array2D;
 
+import java.util.Scanner;
+
 public class FlippingMatrix {
+    public static void input(int[][] arr){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter values for a " + arr.length + "x" + arr[0].length + " array:");
+        for (int i = 0; i < arr.length; i++) {
+            for(int j=0; j<arr[i].length;j++){
+                System.out.print("Enter value for element [" + i + "][" + j + "]: ");
+                arr[i][j] = sc.nextInt();
+            }
+        }
+    }
     public static void main(String[] args) {
-        int[][] arr = {{0,0,1,1},{1,0,1,0},{1,1,0,0}};
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+//        int[][] arr = {{0,0,1,1},{1,0,1,0},{1,1,0,0}};
+        int[][] arr = new int[A][B];
+        input(arr);
         int m = arr.length, n = arr[0].length;
         // put 1 at the 0th position of every row
         for (int i = 0; i < m; i++) {
