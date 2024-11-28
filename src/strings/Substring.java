@@ -9,9 +9,11 @@ public class Substring {
         System.out.println(s.substring(3)); // de
         // print current index to (length - 1)
         System.out.println(s.substring(1,4)); // bcd
+        // print current index (1) to n-1 (3)
         System.out.println(s.substring(2,2)); // empty
         System.out.println(s.substring(2,3)); // c
         System.out.println(s.substring(0,5)); // abcde
-
+        String x = ""; // Empty String
+        System.out.println(x.length()); // 0
     }
 }
