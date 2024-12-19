@@ -15,7 +15,7 @@ public class characterWithMaxNumberOccurrence {
             freq[idx]++;
             // freq[(int)s.charAt(i) - 97]++;
         }
-        int maxFreq = -1;
+        int maxFreq = -1; // -1 or 0
         for(int i=0; i<freq.length;i++) {
             maxFreq = Math.max(maxFreq, freq[i]);
         }
